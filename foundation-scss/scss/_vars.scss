@@ -1,0 +1,43 @@
+// ----------------------------------
+// 	vars.scss
+// 	Global SASS variables - These vars are used in all sass stylesheets
+// ----------------------------------
+
+
+//---------------------------------------
+// Global Paths
+//---------------------------------------
+$filepath-CSSImages: "../../images/";//"../../images/";
+$filepath-JS: "/staic/js";
+$filepath-fonts: "../fonts/";//"../fonts/";
+
+
+
+//---------------------------------------
+// Global colors
+//---------------------------------------
+$color-Blue: #3376b2;
+$color-DarkBlue: #1B405D;
+
+// --------------
+// Backgrounds
+// --------------
+$color-leftCol: #1e1d1d;
+// --------------
+// Text
+// --------------
+$color-H1: #3b3b3b;
+$color-H2: #565656;
+$color-H3: #399337;
+
+
+$color-body: #565656;
+$color-leftColLinks: #c1c1c1; 
+// Fonts
+// - Global and custom fonts
+// - Custom fonts are declared in _fonts.scss
+// --------------
+$font-GlobalFamily:Arial, Helvetica, sans-serif;
+$font-GlobalColor: #565656;
+$font-GlobalSize: 13px;
+

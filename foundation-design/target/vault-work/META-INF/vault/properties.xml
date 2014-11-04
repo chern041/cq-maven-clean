@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Foundation Design</comment>
+<entry key="createdBy">carloshernandez</entry>
+<entry key="name">spider-foundation-design</entry>
+<entry key="created">2014-08-19T16:01:40.188-0400</entry>
+<entry key="groupId">com.dtv.cq</entry>
+<entry key="version">0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.dtv.cq</entry>
+<entry key="description"/>
+<entry key="artifactId">spider-foundation-design</entry>
+<entry key="path">/etc/packages/com.dtv.cq/spider-foundation-design.zip</entry>
+</properties>
