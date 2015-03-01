@@ -1,0 +1,21 @@
+# Initialization of SWX namespace, if not already defined.
+js/Init.js
+
+# Helper for SinglePar component
+js/SinglePar.js
+
+# Helper for ImageRenditions component
+js/ImageRenditions.js
+
+# Custom Widgets
+js/MixinPanel.js
+js/MultiWidget.js
+js/MultiFieldLimit.js
+
+# Dialog Editor Extension
+js/DialogEditorExtender.js
+
+# Multi Node Multiset
+js/StructuredMultiField.js
+
+js/NodeViewer.js

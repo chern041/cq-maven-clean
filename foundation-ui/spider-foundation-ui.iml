@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="CompassSettings">
-    <option name="compassConfigPath" value="$MODULE_DIR$/../foundation-scss/config.rb" />
-    <option name="compassExecutableFilePath" value="/usr/bin/compass" />
-    <option name="compassSupportEnabled" value="true" />
-    <option name="importPaths">
-      <list>
-        <option value="$MODULE_DIR$/../foundation-scss/bower_components/foundation/scss" />
-      </list>
-    </option>
-  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="compass-library" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.adobe.granite:com.adobe.granite.startup:0.6.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:jcl-over-slf4j:1.6.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.6.4" level="project" />
