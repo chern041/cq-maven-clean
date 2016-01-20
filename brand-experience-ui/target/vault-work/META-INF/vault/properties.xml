@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>Brand Experience Package</comment>
+<comment>Brand Experience UI</comment>
 <entry key="createdBy">carloshernandez</entry>
-<entry key="name">brand-experience-package</entry>
-<entry key="created">2016-01-20T11:34:50.769-0500</entry>
+<entry key="name">brand-experience-ui</entry>
+<entry key="created">2016-01-20T11:34:50.550-0500</entry>
 <entry key="groupId">com.brand-experience.cq</entry>
 <entry key="version">0.1-SNAPSHOT</entry>
 <entry key="requiresRoot">false</entry>
 <entry key="group">com.brand-experience.cq</entry>
 <entry key="description"/>
-<entry key="artifactId">brand-experience-package</entry>
-<entry key="path">/etc/packages/com.brand-experience.cq/brand-experience-package.zip</entry>
+<entry key="artifactId">brand-experience-ui</entry>
+<entry key="path">/etc/packages/com.brand-experience.cq/brand-experience-ui.zip</entry>
 </properties>

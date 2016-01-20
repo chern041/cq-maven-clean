@@ -5,15 +5,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dtv.cq</groupId>
-    <artifactId>spider-parent</artifactId>
+    <groupId>com.brand-experience.cq</groupId>
+    <artifactId>brand-experience-parent</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <!-- TO UPGRADE VERSIONS, RUN THIS COMMAND ON THE PARENT PROJECT. -->
     <!-- mvn release:update-versions -->
 
-    <name>Spider Parent</name>
+    <name>Brand Experience Parent</name>
 
     <description/>
 
@@ -27,8 +27,8 @@
     </scm>
 
     <modules>
-        <module>foundation-ui</module>
-        <module>foundation-design</module>
+        <module>brand-experience-bundle</module>
+        <module>brand-experience-ui</module>
         <module>deploy</module>
     </modules>
 
@@ -61,8 +61,6 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
-
 
     <dependencyManagement>
         <dependencies>
@@ -1639,6 +1637,25 @@
 
 
     <profiles>
+        <!-- Place this in your local settings.xml for local deployments.-->
+		<profile>
+			<id>local-author</id>
+			<properties>
+				<cq.host>localhost</cq.host>
+				<cq.port>4502</cq.port>
+				<cq.user>admin</cq.user>
+				<cq.password>admin</cq.password>
+			</properties>
+		</profile>
+		<profile>
+			<id>local-publish</id>
+			<properties>
+				<cq.host>localhost</cq.host>
+				<cq.port>4503</cq.port>
+				<cq.user>admin</cq.user>
+				<cq.password>admin</cq.password>
+			</properties>
+		</profile>
         <profile>
             <id>eclipse</id>
             <build>
@@ -1690,24 +1707,5 @@
                 </pluginManagement>
             </build>
         </profile>
-<!-- Place this in your local settings.xml for local deployments.-->
-		<profile>
-			<id>local-author</id>
-			<properties>
-				<cq.host>localhost</cq.host>
-				<cq.port>4502</cq.port>
-				<cq.user>admin</cq.user>
-				<cq.password>admin</cq.password>
-			</properties>
-		</profile>
-		<profile>
-			<id>local-publish</id>
-			<properties>
-				<cq.host>localhost</cq.host>
-				<cq.port>4503</cq.port>
-				<cq.user>admin</cq.user>
-				<cq.password>admin</cq.password>
-			</properties>
-		</profile>
     </profiles>
 </project>
