@@ -1,6 +1,6 @@
-package com.verizonwireless.brandexperience.service;
+package com.brandexperience.service;
 
-import com.verizonwireless.brandexperience.model.ProductSpotlight;
+import com.brandexperience.model.ProductSpotlight;
 import org.apache.sling.api.resource.ResourceResolver;
 
 import javax.jcr.Node;

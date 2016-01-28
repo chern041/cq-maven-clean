@@ -1,4 +1,4 @@
-package com.verizonwireless.brandexperience.util;
+package com.brandexperience.util;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;

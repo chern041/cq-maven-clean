@@ -1,4 +1,4 @@
-package com.verizonwireless.brandexperience.model;
+package com.brandexperience.model;
 
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.WCMMode;

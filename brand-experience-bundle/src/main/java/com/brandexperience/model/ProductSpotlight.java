@@ -1,4 +1,4 @@
-package com.verizonwireless.brandexperience.model;
+package com.brandexperience.model;
 
 public class ProductSpotlight {
 

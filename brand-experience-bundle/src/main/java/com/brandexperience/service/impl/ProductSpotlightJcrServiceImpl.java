@@ -1,8 +1,8 @@
-package com.verizonwireless.brandexperience.service.impl;
+package com.brandexperience.service.impl;
 
-import com.verizonwireless.brandexperience.model.ProductSpotlight;
-import com.verizonwireless.brandexperience.service.ProductSpotlightJcrService;
-import com.verizonwireless.brandexperience.util.BrandExperienceUtils;
+import com.brandexperience.model.ProductSpotlight;
+import com.brandexperience.service.ProductSpotlightJcrService;
+import com.brandexperience.util.BrandExperienceUtils;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.ResourceResolver;

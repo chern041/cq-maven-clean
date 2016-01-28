@@ -1,9 +1,9 @@
-package com.verizonwireless.brandexperience.service.impl;
+package com.brandexperience.service.impl;
 
-import com.verizonwireless.brandexperience.model.AEMComponentContext;
-import com.verizonwireless.brandexperience.model.ProductSpotlight;
-import com.verizonwireless.brandexperience.service.ProductSpotlightComponentService;
-import com.verizonwireless.brandexperience.service.ProductSpotlightJcrService;
+import com.brandexperience.model.AEMComponentContext;
+import com.brandexperience.model.ProductSpotlight;
+import com.brandexperience.service.ProductSpotlightComponentService;
+import com.brandexperience.service.ProductSpotlightJcrService;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
