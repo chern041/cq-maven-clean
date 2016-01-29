@@ -5,7 +5,7 @@
 
 <%
     TestComponentComponentService service = sling.getService(TestComponentComponentService.class);
-    TestComponent testComponent = service.getTestsComponent(pageContext);
+    TestComponent testComponent = service.getTestComponent(pageContext);
 %>
 
 <h1>Brand Experience</h1>

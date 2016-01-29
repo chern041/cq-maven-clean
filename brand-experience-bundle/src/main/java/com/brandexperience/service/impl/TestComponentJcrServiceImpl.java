@@ -12,7 +12,7 @@ import javax.jcr.RepositoryException;
 
 @Service
 @Component(metatype = false, name = "brand-experience TestComponent JCR Service")
-public class TestComponentJcrServiceImpl implements TestComponentJcrService{
+public class TestComponentJcrServiceImpl implements TestComponentJcrService {
 
     @Override
     public TestComponent getTestComponent(final Node testComponentNode, final ResourceResolver resourceResolver) throws RepositoryException{
@@ -22,7 +22,7 @@ public class TestComponentJcrServiceImpl implements TestComponentJcrService{
         final String description = "description";
         final String color= "color";
 
-        if (testComponent !=null){
+        if (testComponentNode !=null){
             testComponent.setTitle(BrandExperienceUtils.getProperty(testComponentNode, title));
             testComponent.setDescription(BrandExperienceUtils.getProperty(testComponentNode, description));
             testComponent.setColor(BrandExperienceUtils.getProperty(testComponentNode, color));

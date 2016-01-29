@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1454092165153
+Bnd-LastModified: 1454096188564
 Build-Jdk: 1.7.0_80
 Built-By: chenwei
 Bundle-Category: BrandExperience
