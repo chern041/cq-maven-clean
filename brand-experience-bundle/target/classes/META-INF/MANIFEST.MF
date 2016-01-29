@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1453307688317
-Build-Jdk: 1.7.0_71
-Built-By: carloshernandez
+Bnd-LastModified: 1454092165153
+Build-Jdk: 1.7.0_80
+Built-By: chenwei
 Bundle-Category: BrandExperience
 Bundle-ClassPath: .,OSGI-INF/lib/opencsv-2.3.jar,OSGI-INF/lib/nekohtml-1
  .9.17.jar,OSGI-INF/lib/xercesImpl-2.3.0.jar,OSGI-INF/lib/mockito-all-2.
@@ -19,17 +19,6 @@ Embedded-Artifacts: OSGI-INF/lib/opencsv-2.3.jar;g="net.sf.opencsv";a="o
  ohtml";a="nekohtml";v="1.9.17",OSGI-INF/lib/xercesImpl-2.3.0.jar;g="xer
  ces";a="xercesImpl";v="2.3.0",OSGI-INF/lib/mockito-all-2.0.2-beta.jar;g
  ="org.mockito";a="mockito-all";v="2.0.2-beta"
-Export-Package: com.verizonwireless.brandexperience.util;uses:="javax.jc
- r";version="0.1.0.SNAPSHOT",com.verizonwireless.brandexperience.service
- .impl;uses:="javax.jcr,com.verizonwireless.brandexperience.model,com.ve
- rizonwireless.brandexperience.service,javax.servlet.jsp,org.apache.slin
- g.api.resource,com.verizonwireless.brandexperience.util";version="0.1.0
- .SNAPSHOT",com.verizonwireless.brandexperience.model;uses:="javax.jcr,j
- avax.servlet,com.day.cq.wcm.api,org.apache.sling.api,javax.servlet.jsp,
- org.apache.sling.api.resource";version="0.1.0.SNAPSHOT",com.verizonwire
- less.brandexperience.service;uses:="javax.jcr,com.verizonwireless.brand
- experience.model,javax.servlet.jsp,org.apache.sling.api.resource";versi
- on="0.1.0.SNAPSHOT"
 Ignore-Package: sun.io
 Import-Package: com.day.cq.wcm.api,javax.jcr;version="[2.0,3)",javax.ser
  vlet,javax.servlet.jsp,javax.xml.parsers,junit.framework,org.apache.sli

@@ -2,9 +2,9 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>Brand Experience UI</comment>
-<entry key="createdBy">carloshernandez</entry>
+<entry key="createdBy">chenwei</entry>
 <entry key="name">brand-experience-ui</entry>
-<entry key="created">2016-01-20T11:34:50.550-0500</entry>
+<entry key="created">2016-01-29T10:29:38.740-0800</entry>
 <entry key="groupId">com.brand-experience.cq</entry>
 <entry key="version">0.1-SNAPSHOT</entry>
 <entry key="requiresRoot">false</entry>
