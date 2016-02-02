@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/apps/brand-experience/install/brand-experience-bundle-0.1-SNAPSHOT.jar" />
-    <filter root="/etc/packages/com.brand-experience.cq/brand-experience-ui-0.1-SNAPSHOT.zip" />
-</workspaceFilter>

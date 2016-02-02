@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
-    <scr:component enabled="true" name="brand-experience ProductSpotlight Component Service">
-        <implementation class="com.brandexperience.service.impl.ProductSpotlightComponentServiceImpl"/>
+    <scr:component enabled="true" name="com.brandexperience.cq.service.impl.HelloServiceImpl">
+        <implementation class="com.brandexperience.cq.service.impl.HelloServiceImpl"/>
         <service servicefactory="false">
-            <provide interface="com.brandexperience.service.ProductSpotlightComponentService"/>
+            <provide interface="com.brandexperience.cq.service.HelloService"/>
         </service>
-        <property name="service.pid" value="brand-experience ProductSpotlight Component Service"/>
-        <reference name="jcrService" interface="com.brandexperience.service.ProductSpotlightJcrService" cardinality="1..1" policy="static" bind="bindJcrService" unbind="unbindJcrService"/>
-    </scr:component>
-    <scr:component enabled="true" name="brand-experience ProductSpotlight JCR Service">
-        <implementation class="com.brandexperience.service.impl.ProductSpotlightJcrServiceImpl"/>
-        <service servicefactory="false">
-            <provide interface="com.brandexperience.service.ProductSpotlightJcrService"/>
-        </service>
-        <property name="service.pid" value="brand-experience ProductSpotlight JCR Service"/>
+        <property name="service.pid" value="com.brandexperience.cq.service.impl.HelloServiceImpl"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository"/>
     </scr:component>
     <scr:component enabled="true" name="brand-experience TestComponent Component Service">
-        <implementation class="com.brandexperience.service.impl.TestComponentComponentServiceImpl"/>
+        <implementation class="com.brandexperience.cq.service.impl.TestComponentComponentServiceImpl"/>
         <service servicefactory="false">
-            <provide interface="com.brandexperience.service.TestComponentComponentService"/>
+            <provide interface="com.brandexperience.cq.service.TestComponentComponentService"/>
         </service>
         <property name="service.pid" value="brand-experience TestComponent Component Service"/>
-        <reference name="jcrService" interface="com.brandexperience.service.TestComponentJcrService" cardinality="1..1" policy="static" bind="bindJcrService" unbind="unbindJcrService"/>
+        <reference name="jcrService" interface="com.brandexperience.cq.service.TestComponentJcrService" cardinality="1..1" policy="static" bind="bindJcrService" unbind="unbindJcrService"/>
     </scr:component>
     <scr:component enabled="true" name="brand-experience TestComponent JCR Service">
-        <implementation class="com.brandexperience.service.impl.TestComponentJcrServiceImpl"/>
+        <implementation class="com.brandexperience.cq.service.impl.TestComponentJcrServiceImpl"/>
         <service servicefactory="false">
-            <provide interface="com.brandexperience.service.TestComponentJcrService"/>
+            <provide interface="com.brandexperience.cq.service.TestComponentJcrService"/>
         </service>
         <property name="service.pid" value="brand-experience TestComponent JCR Service"/>
     </scr:component>

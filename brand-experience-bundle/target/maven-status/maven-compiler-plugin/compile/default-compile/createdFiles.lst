@@ -1,0 +1,9 @@
+com/brandexperience/cq/service/TestComponentJcrService.class
+com/brandexperience/cq/model/AEMComponentContext.class
+com/brandexperience/cq/service/TestComponentComponentService.class
+com/brandexperience/cq/model/TestComponent.class
+com/brandexperience/cq/util/BrandExperienceUtils.class
+com/brandexperience/cq/service/impl/TestComponentJcrServiceImpl.class
+com/brandexperience/cq/service/impl/HelloServiceImpl.class
+com/brandexperience/cq/service/impl/TestComponentComponentServiceImpl.class
+com/brandexperience/cq/service/HelloService.class
