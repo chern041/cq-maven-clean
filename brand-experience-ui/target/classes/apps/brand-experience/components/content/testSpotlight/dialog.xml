@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          title="Page and Color Chooser"
+          xtype="dialog">
+    <items  jcr:primaryType="cq:TabPanel" xtype="tabpanel" title="Color2">
+        <items jcr:primaryType ="cq:WidgetCollection">
+            <panelDescriptionOne
+                    jcr:primaryType = "cq:Panel" xtype="panel" title="panelOne" >
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Title"
+                            name ="./title"
+                            xtype="textfield"/>
+                    <desc
+                            jcr:primaryType ="cq:Widget"
+                            name="./description"
+                            fieldLabel="Descriptions"
+                            xtype="textfield"/>
+                    <color
+                            jcr:primaryType ="cq:Widget"
+                            fieldLabel="Choose Color"
+                            name="./color"
+                            xtype="colorfield" />
+                </items>
+            </panelDescriptionOne>
+            <panelDescriptionTwo
+                    jcr:primaryType = "cq:Panel" xtype="panel" title="panelTwo">
+            </panelDescriptionTwo>
+
+        </items>
+    </items>
+</jcr:root>

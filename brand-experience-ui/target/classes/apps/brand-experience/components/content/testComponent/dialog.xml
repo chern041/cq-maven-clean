@@ -13,10 +13,10 @@
                             fieldLabel="Title"
                             name ="./title"
                             xtype="textfield"/>
-                    <desc
+                    <description
                             jcr:primaryType ="cq:Widget"
+                            fieldLabel="Description"
                             name="./description"
-                            fieldLabel="Descriptions"
                             xtype="textfield"/>
                     <color
                             jcr:primaryType ="cq:Widget"

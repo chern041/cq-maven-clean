@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          title="TEST MULTITAB"
+          xtype="dialog">
+    <items  jcr:primaryType="cq:TabPanel" xtype="tabpanel" title="Color2">
+        <items jcr:primaryType ="cq:WidgetCollection">
+            <panelDescriptionOne
+                    jcr:primaryType = "cq:Panel" xtype="panel" title="panelOne" >
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <titleTab1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="TitleTab1"
+                            name ="./titleTab1"
+                            xtype="textfield"/>
+                </items>
+
+            </panelDescriptionOne>
+            <panelDescriptionTwo
+                    jcr:primaryType = "cq:Panel" xtype="panel" title="panelTwo">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Title"
+                            name ="./title"
+                            xtype="textfield"/>
+                    <description
+                            jcr:primaryType ="cq:Widget"
+                            fieldLabel="Description"
+                            name="./description"
+                            xtype="textfield"/>
+                    <color
+                            jcr:primaryType ="cq:Widget"
+                            fieldLabel="Choose Color"
+                            name="./color"
+                            xtype="colorfield" />
+                </items>
+
+            </panelDescriptionTwo>
+
+        </items>
+    </items>
+</jcr:root>

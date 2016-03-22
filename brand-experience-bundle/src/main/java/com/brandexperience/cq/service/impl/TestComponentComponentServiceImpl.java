@@ -1,19 +1,22 @@
 package com.brandexperience.cq.service.impl;
 
 import com.brandexperience.cq.model.AEMComponentContext;
-import com.brandexperience.cq.model.TestComponent;
+import com.brandexperience.cq.model.TestComponent ;
 import com.brandexperience.cq.service.TestComponentComponentService;
 import com.brandexperience.cq.service.TestComponentJcrService;
 
-import javax.servlet.jsp.PageContext;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
 
 import javax.jcr.RepositoryException;
+import javax.servlet.jsp.PageContext;
 
-@org.apache.felix.scr.annotations.Service
-@org.apache.felix.scr.annotations.Component(metatype = false, name="brand-experience TestComponent Component Service")
+@Service
+@Component(metatype = false, name="brand-experience TestComponent Component Service")
 public class TestComponentComponentServiceImpl implements  TestComponentComponentService {
 
-    @org.apache.felix.scr.annotations.Reference
+    @Reference
     private  TestComponentJcrService jcrService;
 
     @Override

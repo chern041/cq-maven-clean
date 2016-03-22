@@ -3,6 +3,7 @@ package com.brandexperience.cq.model;
 
 public class TestComponent {
 
+
     public String getTitle() {
         return title;
     }
